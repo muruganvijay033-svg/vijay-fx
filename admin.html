@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin - VJ Edits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>Admin Panel 🔐</h1>
+
+<div id="login">
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="dashboard" style="display:none;">
+    <h2>Bookings</h2>
+    <ul id="list"></ul>
+</div>
+
+<script type="module" src="firebase.js"></script>
+
+</body>
+</html>
